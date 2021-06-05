@@ -1,0 +1,116 @@
+/* CSS Reset */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+html{
+    font-size: 15px;
+}
+
+/* CSS Reset */
+body{
+    background-color:  hsl(0, 0%, 95%);
+}
+
+#cards{
+    display: flex;
+    flex-direction: row;
+    margin: 130px 30px; 
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+#cards .content{
+    margin: 35px;
+    height: 100%;
+}
+
+#cards a{
+    display: inline-block;
+    font-family: 'Lexend Deca',sans-serif;
+    font-weight: 400;
+    background-color: hsl(0, 0%, 95%);
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px 25px;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: hsl(0, 0%, 95%);
+}
+
+
+
+#cards h1{
+    font-family: 'Big Shoulders Display',sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:  hsl(0, 0%, 95%);
+    margin-top: 30px;
+}
+
+#cards p{
+    font-family: 'Lexend Deca',sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: 30px;
+    margin-bottom: 70px;
+
+}
+
+#card-sedans{
+    background-color: hsl(31, 77%, 52%);
+}
+
+#card-sedans a{
+    color: hsl(31, 77%, 52%);
+}
+
+#card-sedans a:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+
+#card-SUVs{
+    background-color: hsl(184, 100%, 22%);
+}
+
+#card-SUVs a{
+    color: hsl(184, 100%, 22%);
+
+}
+
+#card-SUVs a:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+
+#card-Luxury{
+    background-color: hsl(179, 100%, 13%);
+
+}
+
+#card-Luxury a{
+    color: hsl(179, 100%, 13%);
+}
+
+#card-Luxury a:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
+/* Mobile */
+@media only screen and (min-device-width : 375px) and (max-device-width : 740px) {
+    .attribution{
+        margin-bottom: 10px;
+    }
+    #cards{
+        display: flex;
+        flex-direction: column;
+    }
+    }
+/* Mobile */
